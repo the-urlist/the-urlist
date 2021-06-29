@@ -12,12 +12,23 @@
     </div>
     <a
       id="twitterButton"
-      :href="loginUrl"
+      href="/.auth/login/twitter"
       class="button is-large is-fullwidth has-text-white"
     >
       <span>
-        <i id="twitterIcon" class="fab fa-twitter twitter-icon"></i>
+        <i id="twitterIcon" class="login-icon fab fa-twitter twitter-icon"></i>
         <span class="is-size-5 has-text-weight-medium">with Twitter</span>
+      </span>
+    </a>
+    <br />
+    <a
+      id="githubButton"
+      href="/.auth/login/github"
+      class="button is-large is-fullwidth has-text-white"
+    >
+      <span>
+        <i id="githubIcon" class="login-icon fab fa-github github-icon"></i>
+        <span class="is-size-5 has-text-weight-medium">with GitHub</span>
       </span>
     </a>
     <br />
@@ -42,8 +53,8 @@ import config from "../config";
 export default class ModalLogin extends Vue {
   isActive: boolean = false;
 
-  get loginUrl() {
-    return config.AUTH_URL("twitter");
+  loginUrl(provider: string) {
+    return config.AUTH_URL(provider);
   }
 }
 </script>
@@ -54,7 +65,11 @@ export default class ModalLogin extends Vue {
   background-color: #1cabe9;
 }
 
-#twitterIcon {
-  margin-right: 20px;
+#githubButton {
+  background-color: #24292e;
+}
+
+.login-icon {
+  margin-right: 10px;
 }
 </style>
