@@ -1,0 +1,17 @@
+{
+  "routes": [
+    {
+      "route": "/s/user",
+      "allowedRoles": ["authenticated"]
+    },
+    {
+      "route": "/api/*",
+      "methods": ["PUT", "POST", "PATCH", "DELETE"],
+      "allowedRoles": ["authenticated"]
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "index.html",
+    "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
+  }
+}
