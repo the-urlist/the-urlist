@@ -1,0 +1,22 @@
+{
+  "prettier.eslintIntegration": true,
+  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatter.js": "prettier",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "azureFunctions.deploySubpath": "api/bin/Release/netcoreapp3.1/publish",
+  "azureFunctions.projectLanguage": "C#",
+  "azureFunctions.projectRuntime": "~3",
+  "debug.internalConsoleOptions": "neverOpen",
+  "azureFunctions.preDeployTask": "publish",
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#42b883",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#42b88399",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.remoteColor": "#42b883"
+}
