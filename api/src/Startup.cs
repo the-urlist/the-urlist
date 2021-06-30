@@ -1,11 +1,11 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
-using TheUrlist.Infrastructure;
+using Api.Infrastructure;
 using Microsoft.ApplicationInsights.Extensibility;
 
-[assembly: FunctionsStartup(typeof(TheUrlist.Startup))]
-namespace TheUrlist
+[assembly: FunctionsStartup(typeof(Api.Startup))]
+namespace Api
 {
     public class Startup : FunctionsStartup
     {

@@ -49,7 +49,6 @@ export default class UserModule extends VuexModule {
       this.context.commit("_updateCurrentUser", user);
       this.context.dispatch("getUsersLists");
     } catch (err) {
-      console.log(err);
       console.log("User is not logged in");
     }
   }

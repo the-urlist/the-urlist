@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.Json;
 using Microsoft.AspNetCore.Http;
 
-namespace TheUrlist
+namespace Api
 {
     public static class StaticWebAppsAuth
     {

@@ -3,7 +3,7 @@ using HtmlAgilityPack;
 using Newtonsoft.Json;
 using OpenGraphNet;
 
-namespace TheUrlist.Models
+namespace Api.Models
 {
     public class OpenGraphResult
     {

@@ -12,9 +12,9 @@ using System.Linq;
 using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 using HtmlAgilityPack;
-using TheUrlist.Models;
+using Api.Models;
 
-namespace LinkyLink
+namespace Api
 {
     public partial class LinkOperations
     {

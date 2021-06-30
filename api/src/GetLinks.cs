@@ -6,9 +6,9 @@ using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Azure.Documents;
-using TheUrlist.Models;
+using Api.Models;
 
-namespace TheUrlist
+namespace Api
 {
     public partial class LinkOperations
     {

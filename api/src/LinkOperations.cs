@@ -4,8 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using TheUrlist.Infrastructure;
-using TheUrlist.Models;
+using Api.Infrastructure;
+using Api.Models;
 using Microsoft.ApplicationInsights;
 using Microsoft.ApplicationInsights.DataContracts;
 using Microsoft.ApplicationInsights.Extensibility;
@@ -15,7 +15,7 @@ using Microsoft.Extensions.Primitives;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;
 
-namespace TheUrlist
+namespace Api
 {
     public partial class LinkOperations
     {

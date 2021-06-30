@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace TheUrlist.Infrastructure
+namespace Api.Infrastructure
 {
     public interface IBlackListChecker
     {

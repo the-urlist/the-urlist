@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "DB_CONNECTION_STRING": "AccountEndpoint=https://theurlist.documents.azure.com:443/;AccountKey=ciZcEuYBU3E0sXNmuBCWjcSxoga9F1MbK0NloKv9y2Ec7dDmMYEr6BJ6n531MzDI0jHyYbLfl3p7NmgoVWwAMQ=="
+  }
+}

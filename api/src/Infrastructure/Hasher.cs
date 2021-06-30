@@ -1,7 +1,7 @@
 using System;
 using System.Security.Cryptography;
 
-namespace TheUrlist.Infrastructure
+namespace Api.Infrastructure
 {
     public class Hasher
     {

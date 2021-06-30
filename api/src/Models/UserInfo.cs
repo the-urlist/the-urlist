@@ -1,4 +1,4 @@
-namespace TheUrlist.Models
+namespace Api.Models
 {
     public struct UserInfo
     {

@@ -5,7 +5,7 @@ using Microsoft.ApplicationInsights.DataContracts;
 using Microsoft.ApplicationInsights.Extensibility;
 using Microsoft.AspNetCore.Http;
 
-namespace TheUrlist.Infrastructure
+namespace Api.Infrastructure
 {
     public class HeaderTelemetryInitializer : ITelemetryInitializer
     {

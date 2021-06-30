@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace TheUrlist.Models
+namespace Api.Models
 {
     public class LinkBundle
     {

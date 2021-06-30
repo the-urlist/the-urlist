@@ -13,7 +13,7 @@ using System.IO;
 using Newtonsoft.Json;
 using Microsoft.Azure.Documents.Linq;
 
-namespace TheUrlist
+namespace Api
 {
     public partial class LinkOperations
     {
@@ -28,9 +28,10 @@ namespace TheUrlist
             )] IEnumerable<Document> documents,
             [CosmosDB(ConnectionStringSetting = "DB_CONNECTION_STRING")] DocumentClient docClient,
             string vanityUrl,
-            Binder binder,
             ILogger log)
         {
+
+
             var claimsPrincipal = StaticWebAppsAuth.Parse(req);
 
             //not logged in? Bye...

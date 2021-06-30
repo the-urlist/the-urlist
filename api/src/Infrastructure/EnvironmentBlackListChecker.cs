@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TheUrlist.Infrastructure
+namespace Api.Infrastructure
 {
 
     public class EnvironmentBlackListChecker : IBlackListChecker
